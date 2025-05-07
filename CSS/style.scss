@@ -50,6 +50,12 @@
     --color49: #c5f073;
     --color50: #00a945;
     --color51: #f8efed;
+    --color52: #fffb8f;
+    --color53: #395548;
+    --color54: #465f51;
+    --color55: #607b69;
+    --color56: #8bac8c;
+    --color57: #cdedc1;
 
 }
 
@@ -314,7 +320,10 @@ html{
 
                 &-description{
 
-                    font-size: 4rem;
+                    font-size: 3rem;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                    line-height: 1.6;
 
                 }
             }
@@ -322,6 +331,20 @@ html{
     }
 }
 
+@media screen and (max-width: 480px) {
+    .hero-container-heading {
+      font-size: 4rem;
+    }
+  
+    .hero-container-heading-description {
+        font-size: 0.5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        text-align: justify;
+        line-height: 1.6;
+    }
+  }
+  
 // Seccion de About index.html
 
 .main{
@@ -542,7 +565,7 @@ html{
             flex-direction: column;
             justify-content: center ;
             color: var(--color5);
-            background-image: linear-gradient(to right, var(--color31) 0%, var(--color30) 90%);
+            background-image: linear-gradient(to right, var(--color53) 0%, var(--color54) 90%);
             transition: 0.3s ease-in;
 
             &-btn{
@@ -559,14 +582,14 @@ html{
 }
 
 .services-wrapper-card:nth-child(2){
-    background-image: linear-gradient(to right, var(--color30) 0%, var(--color29) 90%);
+    background-image: linear-gradient(to right, var(--color54) 0%, var(--color55) 90%);
 }
 .services-wrapper-card:nth-child(3){
-    background-image: linear-gradient(to right, var(--color29) 0%, var(--color28) 90%);
+    background-image: linear-gradient(to right, var(--color55) 0%, var(--color56) 90%);
 
 }
 .services-wrapper-card:nth-child(4){
-    background-image: linear-gradient(to right, var(--color28) 0%, var(--color49) 90%);
+    background-image: linear-gradient(to right, var(--color56) 0%, var(--color57) 90%);
 
 }
 
@@ -603,6 +626,26 @@ html{
 .services h1{
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    .services-wrapper {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      row-gap: 2rem;
+    }
+  
+    .services-wrapper-card {
+      width: 90%;
+      height: auto;
+      padding: 2rem;
+    }
+  
+    .services h1 {
+      font-size: 4rem;
+      text-align: center;
+    }
+  }
+  
 
 // Seccion de Sign in Index.html
 
@@ -818,3 +861,30 @@ html{
     }
 
 }
+
+@media screen and (max-width: 480px) {
+    .main_btn {
+      padding: 1.5rem 2rem;
+      font-size: 1.8rem;
+      width: 80%;
+      margin: 2rem auto;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .footerContainer-links-wrapper {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+  
+    .footerContainer-links-wrapper-item {
+      align-items: center;
+    }
+  
+    .footerContainer-links-wrapper-item h2,
+    .footerContainer-links-wrapper-item a {
+      text-align: center;
+    }
+  }
+  
