@@ -565,7 +565,7 @@ html {
 }
 
 #footer__logo {
-  color: var(--color1);
+  color: var(--color50);
   display: flex;
   align-items: center;
   cursor: pointer;
