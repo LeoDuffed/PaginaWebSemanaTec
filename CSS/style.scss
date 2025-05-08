@@ -519,41 +519,42 @@ html{
         font-size: 100px;
   }
 
-  @media screen and (max-width: 768px) {
-    .main-container {
-      grid-template-columns: 1fr;
-      gap: 3rem;
-      padding: 2rem;
+  @media screen and (max-width: 480px) {
+    .main-container-img-card {
+      height: 280px;
+      width: 280px;
     }
   
-    .main-container-img-card {
-      width: 180px;
-      height: 180px;
-      font-size: 100px;
-      margin: 0 auto;
+    .main-container-img-card i {
+      font-size: 200px !important; // el !important asegura que sobrescriba el inline
     }
   
     .main-container-content h1 {
-      font-size: 3rem;
-      text-align: center;
+      font-size: 2.4rem;
     }
   
     .main-container-content p {
-      font-size: 2rem;
+      font-size: 1.8rem;
       padding: 0 1rem;
+    }
+  
+    #pregunta_about {
+      font-size: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .main-container-content {
       text-align: center;
-      line-height: 1.5;
+    }
+  
+    .main-container {
+      padding: 0 2rem;
     }
   
     .main_btn {
-      font-size: 1.8rem;
-      padding: 1.2rem 2rem;
-      margin-top: 2rem;
-      width: 90%;
-      max-width: 300px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      font-size: 1.6rem;
+      padding: 1rem 2rem;
     }
   }
   
