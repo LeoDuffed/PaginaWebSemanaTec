@@ -333,11 +333,11 @@ html{
 
 @media screen and (max-width: 480px) {
     .hero-container-heading {
-      font-size: 4rem;
+      font-size: 5rem;
     }
   
     .hero-container-heading-description {
-        font-size: 2rem;
+        font-size: 2.3rem;
         margin-left: 2rem;
         margin-right: 2rem;
         text-align: justify;
@@ -471,14 +471,15 @@ html{
 
 @media screen and (max-width: 960px){
     .main{
-        padding: 50px;
+        margin-left: 2rem;
+        margin-right: 2rem;
 
         &-container{
             display: grid;
             grid-template-columns: 1fr;
             align-items: center;
             justify-content: center;
-            width: 100%;
+            width: 90%;
             margin: 0 auto;
             height: 90%;
 
