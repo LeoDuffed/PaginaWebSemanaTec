@@ -408,7 +408,7 @@ html {
 
 @media screen and (max-width: 960px) {
   .main {
-    margin: 5rem 2rem;
+    margin: 2rem 5rem;
   }
   .main-container {
     display: grid;
