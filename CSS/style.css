@@ -175,7 +175,7 @@ html {
     height: 3px;
     margin: 5px auto;
     transition: all 0.3 ease-in-out;
-    background: var(--color5);
+    background: var(--color1);
     display: block;
     cursor: pointer;
   }
@@ -239,12 +239,14 @@ html {
   }
   #mobile-menu.is-active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
+    background: var(--color1);
   }
   #mobile-menu.is-active .bar:nth-child(2) {
     opacity: 0;
   }
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+    background: var(--color1);
   }
 }
 .hero {
