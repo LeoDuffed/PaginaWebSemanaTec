@@ -1212,25 +1212,28 @@ html{
 
 @media screen and (max-width: 768px) {
     .informes-container-heading {
-      font-size: 4rem;
+        font-size: 3.2rem;
+        text-align: center;
+        margin: 2rem 1rem;
+      }
+
+    .informes-container-heading-description-uno,
+    .informes-container-heading-description-dos,
+    .informes-container-heading-description-tres {
+        margin: 2rem auto;
+        width: 90%;
+        padding: 2rem;
+        height: auto;
+        border-radius: 20px;
     }
 
-    .informes-container-heading-description-uno p{
-        font-size: 2rem;
-        margin: 5rem 5rem;
-        text-align: justify;
-    }
-
-    .informes-container-heading-description-dos p{
-      font-size: 2rem;
-      margin: 7rem 7rem;
+    .informes-container-heading-description-uno p,
+    .informes-container-heading-description-dos p,
+    .informes-container-heading-description-tres p {
+      font-size: 1.8rem;
+      margin: 0;
       text-align: justify;
-    }
-
-    .informes-container-heading-description-tres p{
-        font-size: 3rem;
-        margin: 7rem 7rem;
-        text-align: justify;
+      line-height: 1.6;
     }
     
     .informes2 h1{
@@ -1240,6 +1243,7 @@ html{
   
     .informes-container-heading-acomodado {
       grid-template-columns: 1fr;
+      gap: 2rem
     }
   
     .informes2-wrapper {
@@ -1254,48 +1258,47 @@ html{
 
   @media screen and (max-width: 768px) {
     .informes3-container {
-      grid-template-columns: 1fr;
-      text-align: center;
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 2rem 1rem;
     }
   
     .informes3-container-content h1 {
-      font-size: 3.5rem;
-      color: var(--color26);
-      text-align: center;
-      padding-left: 100px;
+        font-size: 2.8rem;
+        color: var(--color26);
+        margin-top: 2rem;
     }
   
     .informes3-container-content p {
-      font-size: 2rem;
-      margin-top: 1rem;
-      text-align: justify;
-      padding-left: 100px;
+        font-size: 1.8rem;
+        padding: 1rem;
+        text-align: justify;
     }
   
     .informes3-container-img {
-      align-items: center;
-      padding-left: 100px;
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0;
+        padding: 0;
 
     }
   
     .informes3-container-img-card {
-      width: 300px;
-      height: 300px;
-      font-size: 70px;
-      margin-top: 2rem;
+        width: 220px;
+        height: 220px;
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
   
     #informes4 {
       padding: 2rem 1rem;
     }
+
+    .material-symbols-outlined {
+        font-size: 100px;
   }
-  
-  
-  .material-symbols-outlined {
-    font-size: 100px;
-  
-    @media screen and (max-width: 768px) {
-      font-size: 100px;
-    }
   }
 }
+  
