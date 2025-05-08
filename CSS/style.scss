@@ -965,9 +965,9 @@ html{
                 }
 
                 &-dos p{
-                    margin: 60px 30px;
+                    margin: 50px 20px;
                     text-align: left;
-                    font-size: 2.8rem;
+                    font-size: 2.5rem;
                 }
 
                 &-tres {
@@ -986,7 +986,7 @@ html{
                 }
 
                 &-tres p{
-                    margin: 100px 30px;
+                    margin: 100px 40px;
                     text-align: left;
                     justify-content: center;
                     font-size: 3rem;
@@ -1016,7 +1016,7 @@ html{
 // Seccion de Informes 2 Index.html
 
 .informes2 h1{
-    font-size: 5rem;
+    font-size: 7rem;
     font-weight: 700;
     color: var(--color1);
     padding-bottom: 9rem;
@@ -1083,7 +1083,7 @@ html{
 
 .informes3{
     background-color: var(--color5);
-    padding: 5rem 5rem 0 0;
+    padding: 100px 100px 0 0;
 
     &-container{
         display: grid;
@@ -1143,8 +1143,108 @@ html{
     }
 }
 
- // Color de la card en informes 3
+ // Color de la card en informes 3 y 4
 #card_4{
-    background-image: linear-gradient(to right, var(--color53) 0%, var(--color54) 90%);
+    background-image: linear-gradient(to right, var(--color54) 0%, var(--color55) 90%);
 }  
+
+#card_5{
+    background-image: linear-gradient(to right, var(--color55) 0%, var(--color54) 90%);
+}
+
+// Texto informes 4
+
+#informes4{
+    padding: 5rem 5rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .informes-container-heading {
+      font-size: 4rem;
+    }
+
+    .informes-container-heading-description-uno p{
+        font-size: 2rem;
+        margin: 5rem 5rem;
+        text-align: justify;
+    }
+
+    .informes-container-heading-description-dos p{
+      font-size: 2rem;
+      margin: 7rem 7rem;
+      text-align: justify;
+    }
+
+    .informes-container-heading-description-tres p{
+        font-size: 3rem;
+        margin: 7rem 7rem;
+        text-align: justify;
+    }
+    
+    .informes2 h1{
+        text-align: center;
+        font-size: 5rem;
+    }
+  
+    .informes-container-heading-acomodado {
+      grid-template-columns: 1fr;
+    }
+  
+    .informes2-wrapper {
+      grid-template-columns: 1fr;
+    }
+  
+    .informes2-wrapper-card {
+      width: 90%;
+      margin: 1rem auto;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .informes3-container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .informes3-container-content h1 {
+      font-size: 3.5rem;
+      color: var(--color26);
+      text-align: center;
+      padding-left: 100px;
+    }
+  
+    .informes3-container-content p {
+      font-size: 2rem;
+      margin-top: 1rem;
+      text-align: justify;
+      padding-left: 100px;
+    }
+  
+    .informes3-container-img {
+      align-items: center;
+      padding-left: 100px;
+
+    }
+  
+    .informes3-container-img-card {
+      width: 300px;
+      height: 300px;
+      font-size: 70px;
+      margin-top: 2rem;
+    }
+  
+    #informes4 {
+      padding: 2rem 1rem;
+    }
+  }
+  
+  
+  .material-symbols-outlined {
+    font-size: 100px;
+  
+    @media screen and (max-width: 768px) {
+      font-size: 100px;
+    }
+  }
   
