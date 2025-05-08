@@ -206,10 +206,11 @@ html {
     width: 100%;
   }
   .navbar-container-menu-item-links {
-    text-align: center;
-    padding: 2rem;
+    padding: 1.5rem 0;
+    font-size: 2.4rem;
+    display: block;
     width: 100%;
-    display: table;
+    text-align: center;
   }
   .navbar-container-menu.active {
     background: var(--color5);
@@ -219,7 +220,12 @@ html {
     z-index: 99;
     height: 60vh;
     font-size: 2.6rem;
-    padding: 0 20rem;
+    padding: 2rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   #navbar_logo {
     padding: 25px;
