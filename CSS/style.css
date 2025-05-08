@@ -1044,46 +1044,32 @@ html {
   }
 }
 @media screen and (max-width: 768px) {
+  .informes3 {
+    padding: 4rem, 2rem;
+  }
   .informes3-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    text-align: center;
+    grid-template-columns: 1fr;
+    padding: 0;
+    gap: 2rem;
   }
   .informes3-container-content {
-    width: 100%;
-    padding: 1rem;
-  }
-  .informes3-container-content h1 {
-    font-size: 2.8rem;
-    color: var(--color26);
-    margin: 1.5rem 0;
-    padding: 0;
     text-align: center;
-  }
-  .informes3-container-content p {
-    font-size: 1.8rem;
-    line-height: 1.6;
-    text-align: justify;
     padding: 0 1rem;
   }
-  .informes3-container-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 2rem 0;
-    width: 100%;
+  .informes3-container-content h1 {
+    font-size: 3.2rem;
+    line-height: 1.2;
+  }
+  .informes3-container-content p {
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 0 1rem;
   }
   .informes3-container-img-card {
-    width: 220px;
-    height: 220px;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 80px;
+    width: 330px;
+    height: 330px;
+    font-size: 100px;
+    margin: 0 auto;
   }
   .material-symbols-outlined {
     font-size: 100px;
