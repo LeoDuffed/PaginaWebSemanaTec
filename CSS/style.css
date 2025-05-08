@@ -386,13 +386,7 @@ html {
   position: relative;
   transition: all 0.35s;
   outline: none;
-}
-
-.main_btn a {
-  position: relative;
-  z-index: 2;
-  color: var(--color5);
-  text-decoration: none;
+  color: var(--color5) !important;
 }
 
 .main_btn:after {
