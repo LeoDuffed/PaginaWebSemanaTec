@@ -22,21 +22,20 @@ const higlighMenu = () => {
 
     if(window.innerWidth > 960 && scrollPos < 600){
         homeMenu.classList.add('highlight');
-        aboutMenu.classList.remove('highlight');
-        return;
-    } else if (window.innerWidth > 960 && scrollPos < 1400){
-        aboutMenu.classList.add('highlight');
-        homeMenu.classList.remove('highlight');
         servicesMenu.classList.remove('highlight');
         return;
-    } else if (window.innerWidth > 960 && scrollPos < 2000){
-        servicesMenu.classList.add('highlight');
+    } else if (window.innerWidth > 960 && scrollPos < 1200){
         aboutMenu.classList.remove('highlight');
+        homeMenu.classList.remove('highlight');
+        servicesMenu.classList.add('highlight');
+        return;
+    } else if (window.innerWidth > 960 && scrollPos < 1700){
+        servicesMenu.classList.remove('highlight');
+        aboutMenu.classList.add('highlight');
         reciclarMenu.classList.remove('highlight');
         return;
-
     } else if (window.innerWidth > 960 && scrollPos < 2634){
-        servicesMenu.classList.remove('highlight');
+        aboutMenu.classList.remove('highlight');
         reciclarMenu.classList.add('highlight');
         return;
     }

@@ -887,4 +887,264 @@ html{
       text-align: center;
     }
   }
+
+
+
+// ---------------------------------------------------------
+// Seccion de informacion.htmnl
+
+// Seccion de Informes1 informes.html
+
+.informes{
+
+    background: var(--color5);
+    padding: 50px 0;
+    padding-bottom: 4rem;
+
+    &-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 90%;
+        text-align:left;
+        padding: 30px;
+
+        &-heading{
+            
+            color: var(--color1);
+            font-size: 8rem;
+            font-weight: 700;
+            margin: 60px 10px;
+            text-align: center;
+
+            &-acomodado{
+                grid-template-columns: 1fr 1fr;
+                display: grid;
+                justify-content: space-between;
+
+            }
+
+            &-description{
+                font-size: 3rem;
+                font-weight: 500;
+                color: var(--color5);
+
+                &-uno{
+                    margin: 10px;
+                    height: 250px;
+                    width: auto;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    color: var(--color5);
+                    background-color: var(--color29);
+                    transition: 0.3s ease-in;
+                }
+
+                &-uno p{
+                    margin: 40px 20px;
+                    text-align: center;
+                    font-size: 3.2rem;
+                }
+
+                &-dos{
+                    margin-top: 10px;
+                    height: 470px;
+                    width: auto;
+                    border-radius: 20px;
+                    display: flex;
+                    margin: 10px;
+                    flex-direction: row;
+                    justify-content: left ;
+                    color: var(--color5);
+                    background-color: var(--color29);
+                    transition: 0.3s ease-in;
+                }
+
+                &-dos p{
+                    margin: 60px 30px;
+                    text-align: left;
+                    font-size: 2.8rem;
+                }
+
+                &-tres {
+                    margin-top: 10px;
+                    height: 470px;
+                    width: auto;
+                    margin: 10px;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center ;
+                    color: var(--color5);
+                    background-color: var(--color29);
+                    transition: 0.3s ease-in;
+                    
+                }
+
+                &-tres p{
+                    margin: 100px 30px;
+                    text-align: left;
+                    justify-content: center;
+                    font-size: 3rem;
+                }
+
+
+            }
+            
+        }
+
+
+    }
+}
+
+#strong1{
+    background: var(--color2);
+    background: -webkit-linear-gradient(to left, var(--color3) 0%, var(--color4) 100%);
+    background: linear-gradient(to left, var(--color3) 0%, var(--color4) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+// Seccion de Informes 2 Index.html
+
+.informes2 h1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--color1);
+    padding-bottom: 9rem;
+}
+
+.informes2{
+    background-color: var(--color5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 5rem 0;
+    &-wrapper{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+
+        &-card p{
+            text-align: left;
+            padding: 0 2rem;
+            font-size: 2.8rem;
+            color: var(--color5);
+            font-weight: 500;
+            justify-content: center;
+            padding: 3rem 5rem;
+        }
+
+        &-card:hover{
+            transform: scale(1.075);
+            transition: 0.3s ease;
+
+        }
+
+        &-card{
+            margin: 10px;
+            height: 355px;
+            width: 300px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center ;
+            color: var(--color5);
+            background-image: linear-gradient(to right, var(--color28) 0%, var(--color29) 90%);
+            transition: 0.3s ease-in;
+        }
+    }
+}
+
+.informes2-wrapper-card:nth-child(2){
+    background-image: linear-gradient(to right, var(--color29) 0%, var(--color30) 90%);
+}
+.informes2-wrapper-card:nth-child(3){
+    background-image: linear-gradient(to right, var(--color30) 0%, var(--color30) 90%);
+
+}
+.informes2-wrapper-card:nth-child(4){
+    background-image: linear-gradient(to right, var(--color30) 0%, var(--color31) 90%);
+
+}
+
+// Seccion de informacion 3 Informes.html
+
+
+.informes3{
+    background-color: var(--color5);
+    padding: 5rem 5rem 0 0;
+
+    &-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items:center;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        height: 90%;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0 50px;
+
+        &-img{
+            text-align: center;
+            padding-left: 20px;
+            
+            &-card{
+                margin: 10px;
+                height: 500px;
+                width: 500px;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color:var(--color5);
+                background-image: linear-gradient(to right, var(--color21) 0%, var(--color22) 100%);
+            }
+        }
+
+
+        &-content{
+            color: var(--color5);
+            width: 100%;
+        }
+
+        &-content h1{
+            font-size: 4rem;
+            color: var(--color26);
+            text-transform: uppercase;
+            padding-right: 10px;
+
+            margin-top: 32px;
+            font-weight: 900;
+        }
+
+        &-content p{
+            margin-top: 1rem;
+            color: var(--color1);
+            padding-right: 20px;
+            font-size: 2.5rem;
+            font-weight: 500;
+            text-align: left;
+
+            
+        }
+    }
+}
+
+ // Color de la card en informes 3
+#card_4{
+    background-image: linear-gradient(to right, var(--color53) 0%, var(--color54) 90%);
+}  
   
