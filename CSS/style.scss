@@ -525,6 +525,7 @@ html{
     .material-symbols-outlined {
         font-size: 100px;
   }
+}
 
   @media screen and (max-width: 480px) {
     .main-container-img-card {
@@ -1258,47 +1259,57 @@ html{
 
   @media screen and (max-width: 768px) {
     .informes3-container {
-        grid-template-columns: 1fr;
-        text-align: center;
-        padding: 2rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      text-align: center;
+    }
+  
+    .informes3-container-content {
+      width: 100%;
+      padding: 1rem;
     }
   
     .informes3-container-content h1 {
-        font-size: 2.8rem;
-        color: var(--color26);
-        margin-top: 2rem;
+      font-size: 2.8rem;
+      color: var(--color26);
+      margin: 1.5rem 0;
+      padding: 0;
+      text-align: center;
     }
   
     .informes3-container-content p {
-        font-size: 1.8rem;
-        padding: 1rem;
-        text-align: justify;
+      font-size: 1.8rem;
+      line-height: 1.6;
+      text-align: justify;
+      padding: 0 1rem;
     }
   
     .informes3-container-img {
-        display: flex;
-        justify-content: center;
-        margin: 2rem 0;
-        padding: 0;
-
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 2rem 0;
+      width: 100%;
     }
   
     .informes3-container-img-card {
-        width: 220px;
-        height: 220px;
-        font-size: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      width: 220px;
+      height: 220px;
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 80px;
+    }
+  
+    .material-symbols-outlined {
+      font-size: 100px;
     }
   
     #informes4 {
-      padding: 2rem 1rem;
+      padding: 1rem;
     }
-
-    .material-symbols-outlined {
-        font-size: 100px;
   }
-  }
-}
-  
